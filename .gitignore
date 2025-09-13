@@ -1,4 +1,3 @@
 *.txt
 *.out
 main
-git rm --cached --ignore-unmatch text.txt
