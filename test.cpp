@@ -18,15 +18,13 @@ private:
 };
 
 class Cat : public Animal {
-public:
-    Cat() : Animal() {}
-    Cat(std::string name, float weight) : Animal(name, weight) {}
+private:
+    using Animal::Animal;
 };
 
 class Dog : public Animal {
-public:
-    Dog() : Animal() {}
-    Dog(std::string name, float weight) : Animal(name, weight) {}
+private:
+    using Animal::Animal;
 };
 
 int main() {
